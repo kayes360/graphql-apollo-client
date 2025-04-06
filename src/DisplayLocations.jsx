@@ -1,6 +1,6 @@
-import React from 'react'
-import { GET_LOCATIONS } from '../../testing/src/App';
+import React from 'react' 
 import { useQuery } from '@apollo/client';
+import { GET_LOCATIONS } from './App';
 
 export default function () {
  const { loading, error, data } = useQuery(GET_LOCATIONS);
